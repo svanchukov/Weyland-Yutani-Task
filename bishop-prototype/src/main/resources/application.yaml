@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/android
+    username: android
+    password: android
+    driver-class-name: org.postgresql.Driver
+
+kafka:
+  bootstrap-servers: localhost:9092
+  topic: audit-topic
