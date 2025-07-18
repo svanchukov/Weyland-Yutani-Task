@@ -18,6 +18,7 @@
 
 Подключение к kafka "docker-compose up -d"
 
+Также есть prometheus, подключаться по ссылке: http://localhost:8082/actuator/prometheus
 
 Сначала запускать сервис Synthetic Human Core Starter
 Для отправки POST http://localhost:8081/api/commands
